@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Lenteria",
+    "dateExported": "2023-04-20T12:36:31.503Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "09b84fe9-780e-4f92-8615-f712363ab4ba",
+            "colId": "910a01fa-0f09-48f7-8f5d-d2d193a5b609",
+            "containerId": "",
+            "name": "Create Users",
+            "url": "localhost:4000/users/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-20T12:22:56.053Z",
+            "modified": "2023-04-20T12:33:37.147Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n  \"title\": \"123123112312323\",\n  \"firstName\": \"JuneArthorrr\",\n  \"lastName\": \"Lenteriaa\",\n  \"role\": \"User\",\n  \"email\": \"jarthorl@gmail123123.com\",\n  \"password\": \"123456789\",\n  \"confirmPassword\": \"123456789\"\n }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7e00bd24-4ac9-4c9e-a071-65b19641b14e",
+            "colId": "910a01fa-0f09-48f7-8f5d-d2d193a5b609",
+            "containerId": "",
+            "name": "Edit Users",
+            "url": "localhost:4000/users/6",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-04-20T12:23:45.761Z",
+            "modified": "2023-04-20T12:34:22.936Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n  \"title\": \"hehehrhrhr\",\n  \"firstName\": \"Arthor\",\n  \"lastName\": \"Lenteria\",\n  \"role\": \"User\",\n  \"email\": \"jarthorl@gmail1232345.com\",\n  \"password\": \"123456\",\n  \"confirmPassword\": \"123456\"\n }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c491f7ac-e76a-4395-a077-7ce8a9b65891",
+            "colId": "910a01fa-0f09-48f7-8f5d-d2d193a5b609",
+            "containerId": "",
+            "name": "Delete Users",
+            "url": "localhost:4000/users/6",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-04-20T12:26:09.223Z",
+            "modified": "2023-04-20T12:34:36.373Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n  \"title\": \"hehhehee\",\n  \"firstName\": \"Arthorrrr\",\n  \"lastName\": \"Lenteriaaaa\",\n  \"role\": \"User\",\n  \"email\": \"jarthorl123@gmail.com\",\n  \"password\": \"123456\",\n  \"confirmPassword\": \"123456\"\n }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dd14a873-be95-43c7-be80-af66c7a87789",
+            "colId": "910a01fa-0f09-48f7-8f5d-d2d193a5b609",
+            "containerId": "",
+            "name": "Get Users",
+            "url": "localhost:4000/users/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-20T12:28:37.658Z",
+            "modified": "2023-04-20T12:29:39.364Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n  \"title\": \"hehhre\",\n  \"firstName\": \"JuneArthor\",\n  \"lastName\": \"Lenteriaa\",\n  \"role\": \"Admin\",\n  \"email\": \"arthor@gmail.com\",\n  \"password\": \"123456\",\n  \"confirmPassword\": \"123456\"\n }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0409b1b8-b842-4383-954b-31ec47f441c8",
+            "colId": "910a01fa-0f09-48f7-8f5d-d2d193a5b609",
+            "containerId": "",
+            "name": "Get user by ID",
+            "url": "localhost:4000/users/6",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-04-20T12:29:55.026Z",
+            "modified": "2023-04-20T12:33:54.171Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n  \"title\": \"hehhre\",\n  \"firstName\": \"JuneArthor\",\n  \"lastName\": \"Lenteriaa\",\n  \"role\": \"Users\",\n  \"email\": \"arthor@gmail.com\",\n  \"password\": \"123456\",\n  \"confirmPassword\": \"123456\"\n }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
